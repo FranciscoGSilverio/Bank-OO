@@ -1,0 +1,16 @@
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\bin\Debug\net5.0\BankSystem.exe
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\bin\Debug\net5.0\BankSystem.deps.json
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\bin\Debug\net5.0\BankSystem.runtimeconfig.json
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\bin\Debug\net5.0\BankSystem.runtimeconfig.dev.json
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\bin\Debug\net5.0\BankSystem.dll
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\bin\Debug\net5.0\ref\BankSystem.dll
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\bin\Debug\net5.0\BankSystem.pdb
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\obj\Debug\net5.0\BankSystem.csproj.AssemblyReference.cache
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\obj\Debug\net5.0\BankSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\obj\Debug\net5.0\BankSystem.AssemblyInfoInputs.cache
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\obj\Debug\net5.0\BankSystem.AssemblyInfo.cs
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\obj\Debug\net5.0\BankSystem.csproj.CoreCompileInputs.cache
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\obj\Debug\net5.0\BankSystem.dll
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\obj\Debug\net5.0\ref\BankSystem.dll
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\obj\Debug\net5.0\BankSystem.pdb
+C:\Users\franc\OneDrive\Área de Trabalho\Aula de C#\BankCode\Bank-OO\BankSystem\obj\Debug\net5.0\BankSystem.genruntimeconfig.cache
