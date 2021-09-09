@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Área de Trabalho\\Aula de C#\\BankCode\\Bank-OO\\BankSystem\\BankSystem.csproj",
+      "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Documentos\\Programas\\C#-OOClass\\Bank-OO\\BankSystem\\BankSystem.csproj",
       "projectName": "BankSystem",
-      "projectPath": "C:\\Users\\franc\\OneDrive\\Área de Trabalho\\Aula de C#\\BankCode\\Bank-OO\\BankSystem\\BankSystem.csproj",
+      "projectPath": "C:\\Users\\franc\\OneDrive\\Documentos\\Programas\\C#-OOClass\\Bank-OO\\BankSystem\\BankSystem.csproj",
       "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\franc\\OneDrive\\Área de Trabalho\\Aula de C#\\BankCode\\Bank-OO\\BankSystem\\obj\\",
+      "outputPath": "C:\\Users\\franc\\OneDrive\\Documentos\\Programas\\C#-OOClass\\Bank-OO\\BankSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\franc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
