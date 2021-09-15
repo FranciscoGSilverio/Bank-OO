@@ -10,4 +10,27 @@ public class Clients{
         this.account = account;
         this.cash = cash;
     }
+
+    public bool Withdraw(double value){
+        if(this.cash < value) return false;
+
+        else {
+            this.cash -= value;
+            return true;
+        }
+    }
+
+    public void Deposit(double value){
+        this.cash += value;
+    }
+
+    public bool Transfer(double value, Clients destination){
+        if(this.cash < value) return false;
+
+        else{
+            this.Withdraw(value);
+            destination.Deposit(value);
+            return true;
+        }
+    }
 }
