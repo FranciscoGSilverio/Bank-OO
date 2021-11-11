@@ -6,37 +6,62 @@ namespace BankSystem
     {
         static void Main(string[] args)
         {
-            Employee employeeAna = new Employee("Ana", "567.567.567-20", "Cashier", 1550);
-            Employee employeeJoaoVictor = new Employee("JoaoVictor", "902;902.902-10", "Cashier", 1420);
+           Manager Henrique = new Manager (){
+               Name ="Henrique",
+               Id = "123.123.132-00",
+               Wage = 5000,
+               NumberOfAgencys = 3
+           };
+           Henrique.Bonus = Henrique.Wage;
+
+            Salesperson Marcos = new Salesperson (){
+               Name ="Marcos",
+               Id = "322.567.132-00",
+               Wage = 2500,
+               NumberOfClients = 10
+           };
+           Marcos.Bonus = Marcos.Wage;
+
+           Salesperson Bruno = new Salesperson (){
+               Name ="Bruno",
+               Id = "908.123.132-00",
+               Wage = 3000,
+               NumberOfClients = 8
+           };
+           Bruno.Bonus = Bruno.Wage;
+
+           Salesperson Mateus = new Salesperson (){
+               Name ="Mateus",
+               Id = "444.123.111-00",
+               Wage = 2800,
+               NumberOfClients = 8
+           };
+           Mateus.Bonus = Mateus.Wage;
+
+            Clients Francisco = new Clients ("Francisco Gabriel Carvalho Silvério", 200, 111, 5000, Bruno);
+            Clients Fernando = new Clients ("Fernando", 200, 222, 3000, Marcos);
+            Clients Joao = new Clients ("Joao", 200, 222, 5500, Mateus);
+
+
+            Console.WriteLine("====Bank System====");
+
+            Console.WriteLine("Account 1: \nName: " + Francisco.Owner + ";" + "\nAgency: " + Francisco.Agency + ";" + "\nAccount: " + Francisco.Account + ";" + "\nCash: " + Francisco.Cash + ";");
+            Console.WriteLine();
+            Console.WriteLine("Account 2: \nName: " + Fernando.Owner + ";" + "\nAgency: " + Fernando.Agency + ";" + "\nAccount: " + Fernando.Account + ";" + "\nCash: " + Fernando.Cash + ";");
+            Console.WriteLine();
+            Console.WriteLine("Account 3: \nName: " + Joao.Owner + ";" + "\nAgency: " + Joao.Agency + ";" + "\nAccount: " + Joao.Account + ";" + "\nCash: " + Joao.Cash + ";");
+
+            Console.WriteLine();
+
+            Console.WriteLine("===Employees===");
             
-            Clients Francisco = new Clients("Francisco", 1234, 567, 1000.50, employeeAna);
-            Clients Jose = new Clients("Jose", 1234, 675, 1250, employeeJoaoVictor);
-            Clients Monica = new Clients("Monica", 1234, 789, 1330, employeeJoaoVictor);
-
-            Console.WriteLine("The total of accounts created is: "+ Clients.AccountsCreated + " accont(s).");
-            Console.WriteLine("");
-
-            Console.WriteLine("Inicial money: Francisco R$" + Francisco.Cash + "; assisted by the cashier " + employeeAna.Name + ", her comission was: R$ "+ employeeAna.Comission);
-            Console.WriteLine("Inicial money: Jose R$" + Jose.Cash + "; assisted by the cashier " + employeeJoaoVictor.Name + ", his comission was: R$ "+ employeeJoaoVictor.Comission);
-            Console.WriteLine("Inicial money: Monica R$" + Monica.Cash + "; assisted by the cashier " + employeeJoaoVictor.Name + ", his comission was: R$ "+ employeeJoaoVictor.Comission);
-            Console.WriteLine("");
-
-            Francisco.Withdraw(100);
-            Jose.Withdraw(250);
-            Monica.Withdraw(500);
-
-            Console.WriteLine("Francisco's cash after withdrawal: "+ Francisco.Cash);
-            Console.WriteLine("Jose's cash after withdrawal: "+ Jose.Cash);
-            Console.WriteLine("Monica's cash after withdrawal: "+ Monica.Cash);
-            Console.WriteLine("");
-
-            Francisco.Deposit(1200);
-            Console.WriteLine("Francisco's cash after Deposit: "+Francisco.Cash);
-            Console.WriteLine("");
-
-            Francisco.Transfer(350, Jose);
-            Console.WriteLine("Francisco's cash after transfer: "+Francisco.Cash);
-            Console.WriteLine("Jose's cash after transfer: "+ Jose.Cash);
+            Console.WriteLine("Salesperson 1: \nName: " + Marcos.Name + ";" + "\nID: " + Marcos.Id + ";" + "\nWage: R$" + Marcos.Wage + ";" + "\nBonus R$: " + Marcos.Bonus + ";" + "\nTotal payment: R$" + Marcos.TotalPayment(Marcos.Wage,Marcos.Bonus) + ";" + "\nVacation " + Marcos.CalculateVacation() + " days.");
+            Console.WriteLine();
+            Console.WriteLine("Salesperson 1: \nName: " + Bruno.Name + ";" + "\nID: " + Bruno.Id + ";" + "\nWage: R$" + Bruno.Wage + ";" + "\nBonus R$: " + Bruno.Bonus + ";" + "\nTotal payment: R$" + Bruno.TotalPayment(Bruno.Wage,Bruno.Bonus) + ";" + "\nVacation " + Bruno.CalculateVacation() + " days.");
+            Console.WriteLine();
+            Console.WriteLine("Salesperson 1: \nName: " + Mateus.Name + ";" + "\nID: " + Mateus.Id + ";" + "\nWage: R$" + Mateus.Wage + ";" + "\nBonus R$: " + Mateus.Bonus + ";" + "\nTotal payment: R$" + Mateus.TotalPayment(Mateus.Wage,Mateus.Bonus) + ";" + "\nVacation " + Mateus.CalculateVacation() + " days.");
+            Console.WriteLine();
+            Console.WriteLine("Total of accounts: "+ Clients.AccountsCreated+".");
         }
     }
 }

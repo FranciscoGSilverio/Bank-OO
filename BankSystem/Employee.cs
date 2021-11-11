@@ -1,16 +1,27 @@
-public class Employee
+public abstract class Employee
     {
         public string Name {get;set;}
         public string Id {get;set;}
-        public string Occupation {get;set;}
         public double Wage {get;set;}
         public double Comission{get;set;}
 
-        public Employee(string employee_name, string employee_id, string employee_occupation, double employee_wage)
-        {
-            Name = employee_name;
-            Id = employee_id;
-            Occupation = employee_occupation;
-            Wage = employee_wage;
-        } 
+       protected double _bonus;
+
+       public virtual double Bonus{
+           get{
+               return _bonus;
+           }
+           set{
+               _bonus += Wage * 0.01;
+           }
+       }
+
+       public abstract int CalculateVacation();
+
+       public double TotalPayment(double Wage){
+           return Wage * 13;
+       }
+       public double TotalPayment(double Wage, double Bonus){
+           return Wage * 13 + Bonus;
+       }
     }
